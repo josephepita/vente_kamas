@@ -65,7 +65,7 @@ def kamas():
         if (status != res and (now.hour < 2 or now.hour > 9)):
             status = res
             if status == False:
-                webhook = DiscordWebhook(url='https://discord.com/api/webhooks/985870865877073980/91t7OjW_kVgIkEA8hqqBKDPtEWh9gm0E-czlRQzd6Wf-ANXs1V-8_R64kQ_u8i71sD9t', content='Stock complet sur Merian')
+                webhook = DiscordWebhook(url='https://discord.com/api/webhooks/985870865877073980/91t7OjW_kVgIkEA8hqqBKDPtEWh9gm0E-czlRQzd6Wf-ANXs1V-8_R64kQ_u8i71sD9t', content='Stock complet sur Meriana')
                 webhook.execute()
             else:
                 webhook = DiscordWebhook(url='https://discord.com/api/webhooks/985870865877073980/91t7OjW_kVgIkEA8hqqBKDPtEWh9gm0E-czlRQzd6Wf-ANXs1V-8_R64kQ_u8i71sD9t', content='STOCK DISPO SUR MERIANA')
